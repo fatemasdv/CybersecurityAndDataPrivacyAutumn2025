@@ -16,5 +16,6 @@
 | 08.11.2025  | 2 | Module 5 test and reflection  | Took the test and wrote down what I improved on. |
 | 09.11.2025  | 3 | Cybersecurity careers         | Read about different jobs and paths in cybersecurity. |
 | 09.11.2025  | 2 | Final review and wrap-up      | Finished the course, updated the logbook, and reflected on my progress. |
-| 15.11.2025 | 2 | SQL injection lab (PortSwigger) | Completed the lab “SQL injection vulnerability in WHERE clause allowing retrieval of hidden data” by changing the URL parameter to' OR 1=1-- to reveal hidden products. |
-| 15.11.2025 | 2 | SQL injection login bypass (PortSwigger) | Completed the lab "SQL injection vulnerability allowing login bypass" by entering ' OR 1=1-- as the username and any password, which made the login query always true and logged me in without real credentials. |
+| 13.11.2025 | 3 | SQL injection lab (PortSwigger) | Completed the lab “SQL injection vulnerability in WHERE clause allowing retrieval of hidden data” by changing the URL parameter to' OR 1=1-- to reveal hidden products. |
+| 13.11.2025 | 2 | SQL injection login bypass (PortSwigger) | Completed the lab "SQL injection vulnerability allowing login bypass" by entering ' OR 1=1-- as the username and any password, which made the login query always true and logged me in without real credentials. |
+| 14.11.2025 | 2 | Reflected XSS lab (PortSwigger) | Completed the lab "Reflected XSS into HTML context with nothing encoded" by putting `<script>alert(1)</script>` in the blog search box, which was reflected directly into the page and executed as JavaScript. |
