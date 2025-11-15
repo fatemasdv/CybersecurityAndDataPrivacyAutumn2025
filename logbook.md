@@ -17,3 +17,4 @@
 | 09.11.2025  | 3 | Cybersecurity careers         | Read about different jobs and paths in cybersecurity. |
 | 09.11.2025  | 2 | Final review and wrap-up      | Finished the course, updated the logbook, and reflected on my progress. |
 | 15.11.2025 | 2 | SQL injection lab (PortSwigger) | Completed the lab “SQL injection vulnerability in WHERE clause allowing retrieval of hidden data” by changing the URL parameter to' OR 1=1-- to reveal hidden products. |
+| 15.11.2025 | 2 | SQL injection login bypass (PortSwigger) | Completed the lab "SQL injection vulnerability allowing login bypass" by entering ' OR 1=1-- as the username and any password, which made the login query always true and logged me in without real credentials. |
