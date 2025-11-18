@@ -18,7 +18,7 @@
 | 09.11.2025  | 2 | Final review and wrap-up      | Finished the course, updated the logbook, and reflected on my progress. |
 | 13.11.2025 | 3 | SQL injection lab (PortSwigger) | Completed the lab “SQL injection vulnerability in WHERE clause allowing retrieval of hidden data” by changing the URL parameter to' OR 1=1-- to reveal hidden products. |
 | 14.11.2025 | 2 | SQL injection login bypass (PortSwigger) | Completed the lab "SQL injection vulnerability allowing login bypass" by entering ' OR 1=1-- as the username and any password, which made the login query always true and logged me in without real credentials. |
-|16.11.2025 |3| Username enumeration via different responses   | Completed the lab by identifying and exploiting username enumeration via different responses. |
- | 18.11.2025 | 2| Password reset broken logic | Completed the lab by exploiting the broken password reset functionality to reset Carlos's password and logged into his account. |
+|15.11.2025 |3| Username enumeration via different responses   | Completed the lab by identifying and exploiting username enumeration via different responses. |
+ | 16.11.2025 | 2| Password reset broken logic | Completed the lab by exploiting the broken password reset functionality to reset Carlos's password and logged into his account. |
  | 17.11.2025 | 4 | User role can be modified in user profile     | Completed the lab. I accessed the admin panel and deleted the user "Carlos" by modifying my role to admin.|
  | 18.11.2025| 2 | Unprotected admin functionality            | Completed the lab by accessing the unprotected admin panel and deleting the user "Carlos."    |
