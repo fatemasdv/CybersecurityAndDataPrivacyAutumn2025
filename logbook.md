@@ -17,6 +17,8 @@
 | 09.11.2025  | 3 | Cybersecurity careers         | Read about different jobs and paths in cybersecurity. |
 | 09.11.2025  | 2 | Final review and wrap-up      | Finished the course, updated the logbook, and reflected on my progress. |
 | 13.11.2025 | 3 | SQL injection lab (PortSwigger) | Completed the lab “SQL injection vulnerability in WHERE clause allowing retrieval of hidden data” by changing the URL parameter to' OR 1=1-- to reveal hidden products. |
-| 13.11.2025 | 2 | SQL injection login bypass (PortSwigger) | Completed the lab "SQL injection vulnerability allowing login bypass" by entering ' OR 1=1-- as the username and any password, which made the login query always true and logged me in without real credentials. |
-| 14.11.2025 | 2 | Reflected XSS lab (PortSwigger) | Completed the lab "Reflected XSS into HTML context with nothing encoded" by putting `<script>alert(1)</script>` in the blog search box, which was reflected directly into the page and executed as JavaScript. |
-| 15.11.2025 | 3 | Stored XSS lab (PortSwigger) | Completed the lab "Stored XSS into HTML context with nothing encoded" by posting a comment containing `<script>alert(1)</script>`, which was stored and later executed whenever the page was viewed, demonstrating a stored cross-site scripting vulnerability. |
+| 14.11.2025 | 2 | SQL injection login bypass (PortSwigger) | Completed the lab "SQL injection vulnerability allowing login bypass" by entering ' OR 1=1-- as the username and any password, which made the login query always true and logged me in without real credentials. |
+| 15.11.2025 | 3| Username enumeration via different responses   | Completed the lab by identifying and exploiting username enumeration via different responses. |
+| 16.11.2025| 2| 2FA simple bypass                           | Solved the lab by bypassing the second authentication factor using Burp Suite.  |
+ | 17.11.2025 | 4 | User role can be modified in user profile     | Completed the lab. I accessed the admin panel and deleted the user "Carlos" by modifying my role to admin.|
+ | 18.11.2025| 2 | Unprotected admin functionality            | Completed the lab by accessing the unprotected admin panel and deleting the user "Carlos."    |
