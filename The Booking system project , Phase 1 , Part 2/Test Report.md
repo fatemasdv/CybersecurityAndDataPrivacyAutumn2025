@@ -119,4 +119,38 @@ F-04	Medium	Missing Anti-clickjacking Header	No CSP header is set, making the si
 F-05	Low	SQL Injection	The app does not have an X-Frame-Options or Content-Security-Policy header defending against clickjacking.
 	No X-Frame-Options header
 
+Alert Details (from ZAP Scan)
+
+ High Risk Alerts:
+1. Path Traversal 
+   - URL: `http://localhost:8000/register`  
+   - Evidence: Malformed path input leads to directory traversal.
+
+   SQL Injection  
+   - URL:`http://localhost:8000/register`  
+   - Parameter: `username`  
+   - Evidence: SQL error messages returned in HTTP 500 responses.
+
+Medium Risk Alerts:
+1. Absence of Anti-CSRF Tokens
+   - URL: `http://localhost:8000/register`  
+   - Evidence: No CSRF token found in registration form.
+
+2. Content Security Policy (CSP) Header Not Set  
+   - URLs:`http://localhost:8000/`, `http://localhost:8000/register`
+
+3. Missing Anti-clickjacking Header
+   - URLs `http://localhost:8000/`, `http://localhost:8000/register`
+
+4. Format String Error  
+   - URL: `http://localhost:8000/register`  
+   - Parameter: `username`  
+     Evidence: Format string payload caused connection closure.
+
+ Low Risk Alerts:
+- X-Content-Type-Options Header Missing – Affects 5 resources.
+
+Informational Alerts:
+- User Agent Fuzzer – 12 instances detected.
+
 
