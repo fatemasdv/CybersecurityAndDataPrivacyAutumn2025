@@ -26,20 +26,21 @@ To assess the strength of Booking System user passwords against offline cracking
 
 ---
 
-## Tools Used
-**psql (PostgreSQL command-line client)
+## 3. Tools and Environment
 
-*Used from PowerShell to connect to the PostgreSQL instance and extract user data.
+### Tools Used
 
-**John the Ripper
+#### psql (PostgreSQL command-line client)
+- Used from PowerShell to connect to the PostgreSQL instance and extract user data.
 
-*Primary password cracking tool for initial dictionary-based tests.
+#### John the Ripper
+- Primary password cracking tool for initial dictionary-based tests.
 
-**rockyou.txt wordlist
+#### rockyou.txt wordlist
+- Public, widely used password dictionary.
 
-*Public, widely used password dictionary.
-
-**Hashcat v7.1.2 (follow-up analysis in a Kali Linux test environment)
+#### Hashcat v7.1.2 (follow-up analysis in a Kali Linux test environment)
+- Used for more advanced rules-based attacks (`rockyou-30000.rule`) to further evaluate crackability of MD5 hashes.
 
 Used for more advanced rules-based attacks (rockyou-30000.rule) to further evaluate crackability of MD5 hashes.
 ---
@@ -195,6 +196,7 @@ The combination of weak passwords and potential database access creates a critic
 4. Update security documentation
 
 ---
+
 
 
 
