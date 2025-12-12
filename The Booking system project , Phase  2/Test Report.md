@@ -206,16 +206,13 @@ The combination of weak passwords and potential database access creates a critic
 1. `screenshot_psql_output.png` – Database hash extraction
 2. `screenshot_john_cracking.png` – Cracking process
 3. `screenshot_cracked_results.png` – Final cracked passwords
-4. `booking_hashes.txt` – Original hash file
-5. `john.pot` – John's pot file with cracked hashes
+4. `booking_hashes.png` userhashes.txt – Original hash file
 
-**Next Steps:**
-1. Present findings to development team
-2. Implement password policy changes
-3. Schedule retest after remediation
-4. Update security documentation
+
+
 
 ---
+
 
 
 
