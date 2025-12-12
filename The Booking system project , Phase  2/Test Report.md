@@ -92,7 +92,7 @@ hashcat -m 0 -a 0 --username /home/kali/hashpass.txt /usr/share/wordlists/rockyo
 ### 4. Results Collection
 Displayed cracked passwords:
 ```bash
-john --show booking_hashes.txt
+john --show userhashes.txt
 ```
 
 ### 5. Evidence Documentation
@@ -208,6 +208,7 @@ The combination of weak passwords and potential database access creates a critic
 4. Update security documentation
 
 ---
+
 
 
 
