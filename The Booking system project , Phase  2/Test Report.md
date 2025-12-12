@@ -122,6 +122,14 @@ John the Ripper successfully cracked **6 out of 12** user passwords during the t
 | 11      | foo-bar@example.com        | 1b12f2c371d1e578f4a61d3a3e6c49b6   | administrator | 2025-12-08 | e67f82ff-8259-49a8-8074-4584e117b793   |
 | 12      | mun@ac.io                  | 0343f6458ad05994f532135e75083733   | reserver      | 1999-11-11 | c9b3ca4b-1074-4956-906c-c0fb364bff50   |
 
+----
+| User / Email                                                        | Password    |
+| ------------------------------------------------------------------- | ----------- |
+| [whatsupdoc@looneytunes.tv](mailto:whatsupdoc@looneytunes.tv)       | carrots123  |
+| [doh@springfieldpower.net](mailto:doh@springfieldpower.net)         | donuts4life |
+| [iamyourfather@deathstar.gov](mailto:iamyourfather@deathstar.gov)   | darkside4e2 |
+| [genius@starkindustries.com](mailto:genius@starkindustries.com)     | iamironman  |
+| [whysoserious@gothamchaos.net](mailto:whysoserious@gothamchaos.net) | chaos123!   |
 
 
 ---
@@ -208,6 +216,7 @@ The combination of weak passwords and potential database access creates a critic
 4. Update security documentation
 
 ---
+
 
 
 
