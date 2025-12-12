@@ -69,13 +69,25 @@ SELECT user_id, username, email, password_hash, role FROM users;
 
 ### 2. Hash File Preparation
 Exported the extracted hashes to a text file (`booking_hashes.txt`) with one hash per line in John-compatible format.
-
-### 3. Password Cracking Execution
+### 3 Password Cracking Execution
+### 3.1 Password Cracking Execution johe the ripper
 Ran John the Ripper with dictionary attack:
 
 ```bash
 john --wordlist=rockyou.txt booking_hashes.txt
 ```
+### 3.2 Cracking by Hashcat 
+
+To further evaluate how easily these hashes could be cracked by an attacker using more advanced tooling:
+
+- Prepared a Hashcat input file containing `email:hash` pairs  
+  - Example: `whysoserious@gothamchaos.net:f158d4...`
+
+#### Initial Dictionary Attack (Baseline)
+Ran a straight dictionary attack (no additional hits beyond what John the Ripper already found):
+
+```bash
+hashcat -m 0 -a 0 --username /home/kali/hashpass.txt /usr/share/wordlists/rockyou.txt
 
 ### 4. Results Collection
 Displayed cracked passwords:
@@ -196,6 +208,7 @@ The combination of weak passwords and potential database access creates a critic
 4. Update security documentation
 
 ---
+
 
 
 
