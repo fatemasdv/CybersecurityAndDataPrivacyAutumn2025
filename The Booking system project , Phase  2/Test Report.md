@@ -39,7 +39,7 @@ To assess the strength of Booking System user passwords against offline cracking
 #### rockyou.txt wordlist
 - Public, widely used password dictionary.
 
-#### Hashcat v7.1.2 (follow-up analysis in a Kali Linux test environment)
+#### Hashcat 
 - Used for more advanced rules-based attacks (`rockyou-30000.rule`) to further evaluate crackability of MD5 hashes.
 
 Used for more advanced rules-based attacks (rockyou-30000.rule) to further evaluate crackability of MD5 hashes.
@@ -212,6 +212,7 @@ The combination of weak passwords and potential database access creates a critic
 
 
 ---
+
 
 
 
