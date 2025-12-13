@@ -64,7 +64,7 @@ docker exec -it cybersec-db-phase2 psql -U postgres -d postgres
 
 Executed SQL query to extract user credentials:
 ```sql
-SELECT user_id, username, email, password_hash, role FROM users;
+SELECT * FROM  bookking_users;
 ```
 
 ### 2. Hash File Preparation
@@ -212,6 +212,7 @@ The combination of weak passwords and potential database access creates a critic
 
 
 ---
+
 
 
 
