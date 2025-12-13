@@ -140,8 +140,8 @@ John the Ripper successfully cracked **6 out of 12** user passwords during the t
 1. **High Crack Rate**: 50% of passwords were vulnerable to basic dictionary attacks
 2. **Administrative Vulnerability**: 2 out of 3 administrative accounts used weak passwords
 3. **Common Patterns Identified**:
-   * Username-based passwords (`john1234`, `jane2024`)
-   * Simple variations of "password" (`password123`)
+   * Username-based passwords 
+   * Simple variations of 
    * Current year references (`2024`, `2025`)
    * Company/organization names
 
@@ -212,6 +212,7 @@ The combination of weak passwords and potential database access creates a critic
 
 
 ---
+
 
 
 
