@@ -133,8 +133,6 @@ curl -i http://localhost:8003/admin        → 302 Not Found handler
 curl -i http://localhost:8003/api/admin    → 404 {"error":"Not Found"}
 ```
 
-**Conclusion:**  
-Admin RBAC cannot be tested because admin endpoints do not exist in this deployment. This matches the actual Phase 3 scope.
 
 ---
 
@@ -229,4 +227,5 @@ Phase 3 objectives were successfully achieved. The Booking System demonstrates:
 * Clear separation between public and protected functionality
 * No hidden or privileged endpoints
 * No high‑risk vulnerabilities
+
 * Effective security headers and session handling
