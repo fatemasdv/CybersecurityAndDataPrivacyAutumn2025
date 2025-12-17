@@ -5,14 +5,13 @@
 **Environment:** Kali Linux, Docker, Docker Compose  
 **Application:** Booking System – Phase 3
 
----
 ## Tester(s) Fatema Akter
 
 ## 1. Introduction
 
 The objective of Phase 3 was to evaluate the **authorization mechanisms**, exposed functionality, and overall security posture of the Booking System application. The focus was on identifying accessible endpoints, validating role-based access control (RBAC), performing controlled security testing, and assessing compliance with security and privacy principles defined in the project specification.
 
----
+
 
 ## 2. Test Environment
 
@@ -30,7 +29,7 @@ Verification:
 docker compose ps
 ```
 
----
+
 
 ## 3. Application Surface Discovery
 
@@ -67,7 +66,7 @@ The following endpoints were identified:
 
 No `/admin` or `/api/admin` endpoints were discovered.
 
----
+
 
 ## 4. Authorization Testing
 
@@ -77,7 +76,7 @@ No `/admin` or `/api/admin` endpoints were discovered.
 * Reserver (authenticated user)
 * Administrator (not implemented in Phase 3)
 
----
+
 
 ### 4.2 Guest (Not Logged In)
 
@@ -99,7 +98,7 @@ No `/admin` or `/api/admin` endpoints were discovered.
 
 **Result:** ✔ Authorization enforced correctly
 
----
+
 
 ### 4.3 Reserver (Authenticated User)
 
@@ -120,7 +119,7 @@ No `/admin` or `/api/admin` endpoints were discovered.
 
 **Result:** ✔ Authorization enforced correctly
 
----
+
 
 ### 4.4 Administrator Role (Phase 3 Scope)
 
@@ -134,7 +133,7 @@ curl -i http://localhost:8003/api/admin    → 404 {"error":"Not Found"}
 ```
 
 
----
+
 
 ## 5. Hidden Endpoint Discovery
 
@@ -153,7 +152,7 @@ curl -i http://localhost:8003/api/admin    → 404 {"error":"Not Found"}
 
 ✔ Negative results confirmed across multiple tools
 
----
+
 
 ## 6. Security Testing (OWASP ZAP)
 
@@ -172,7 +171,7 @@ An authenticated OWASP ZAP scan was performed.
 * Authentication and session management were correctly detected
 * Findings are informational and do not require remediation
 
----
+
 
 ## 7. Shielding and Hardening
 
@@ -185,7 +184,7 @@ The application applies security headers consistently, including on error respon
 
 These headers mitigate common web attacks such as XSS and clickjacking.
 
----
+
 
 ## 8. Logging Observations
 
@@ -201,7 +200,7 @@ Observations:
 * No sensitive data exposed in logs
 * Logging supports auditing and incident analysis
 
----
+
 
 ## 9. GDPR and Privacy Considerations
 
@@ -217,7 +216,7 @@ Limitations:
 * No user‑visible data export or deletion features
 * Data retention policy not explicitly documented
 
----
+
 
 ## 10. Conclusion
 
@@ -229,4 +228,5 @@ Phase 3 objectives were successfully achieved. The Booking System demonstrates:
 * No high‑risk vulnerabilities
 
 * Effective security headers and session handling
+
 
