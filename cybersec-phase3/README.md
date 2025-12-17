@@ -6,7 +6,7 @@
 **Application:** Booking System – Phase 3
 
 ---
-##Tester(s) Fatema Akter
+## Tester(s) Fatema Akter
 
 ## 1. Introduction
 
@@ -229,3 +229,4 @@ Phase 3 objectives were successfully achieved. The Booking System demonstrates:
 * No high‑risk vulnerabilities
 
 * Effective security headers and session handling
+
