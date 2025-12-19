@@ -1,21 +1,21 @@
-# Logbook - IT00AK39-3005-Cybersecurity and data privacy
+# Logbook
 
- Subject(s) | Outcome(s) |
-| :--- | :--- |
- Kick-off class and cisco prep amd module 1 and 2 study | Course started and basic clear |
- Cisco prep module 1 and 2 | intro and attack concept, exam |
- Cisco prep module 3 and 4 | Protecting Your Devices and Network and Cybersecurity Devices and Technologies and exam |
- Cisco prep module 4 and 5 | Legal and Ethical Issues, final exam |
- PortSwigger | Authentication Username enumeration and Password reset broken logic |
-PortSwigger-SQL injection | SQL injection vulnerabilities and login bypass |
- PortSwigger-Access control | Unprotected admin functionality and user role modification |
- PortSwigger-SQL injection | Querying database type and version on Oracle/MySQL |
- Penetration testing learning | Practiced according to class instructions |
- Docker | Working on Booking System Phase 1 |
-Docker | Working on Booking System Phase 1 PART 2 |
- Docker, Debian, Password crack | Working on Booking System Phase 2 |
- Docker, Debian, Password crack | Working on Booking System Phase 2 |
- Authorization Testing Assignment | Working on Booking System Phase 3 |
- Authorization Testing Assignment | Working on Booking System Phase 3 |
- GDPR Assignment | Working on Booking System Phase 4 |
- PortSwigger | SQL Injection, Authentication and Access Control |
+| Used Hours | Subject(s) | Outcome(s) |
+| :---: | :--- | :--- |
+| 3 | Kick-off class and Cisco prep (Module 1 & 2) | Course started and basic concepts were clarified |
+| 5 | Cisco prep (Module 1 & 2) | Introduction to cybersecurity, attack concepts, and exam |
+| 6 | Cisco prep (Module 3 & 4) | Protecting devices and networks, cybersecurity technologies, and exam |
+| 5 | Cisco prep (Module 4 & 5) | Legal and ethical issues and final exam |
+| 6 | PortSwigger | Authentication: username enumeration via different responses, password reset broken logic |
+| 3 | PortSwigger – SQL Injection | SQL injection: hidden data retrieval and login bypass |
+| 2 | PortSwigger – Access Control Vulnerabilities | Unprotected admin functionality and user role modification |
+| 4 | PortSwigger – SQL Injection | Database type and version enumeration (Oracle, MySQL, Microsoft) |
+| 6 | Penetration testing learning | Practical work completed according to class |
+| 7 | Docker | Working on booking system – Phase 1 |
+| 7 | Docker | Working on booking system – Phase 1 (Part 2) |
+| 6 | Docker, Debian, Password cracking | Working on booking system – Phase 2 |
+| 8 | Docker, Debian, Password cracking | Continued work on booking system – Phase 2 |
+| 3 | Authorization Testing Assignment | Working on booking system – Phase 3 |
+| 6 | Authorization Testing Assignment | Continued work on booking system – Phase 3 |
+| 6 | GDPR Assignment | Working on booking system – Phase 4 |
+| 5 | PortSwigger | SQL Injection, Authentication, and Access Control |
