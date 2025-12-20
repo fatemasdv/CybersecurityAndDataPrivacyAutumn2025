@@ -15,7 +15,7 @@ The purpose of this repository is to document my learning progress throughout th
 ## 🧠 Course Information
 - **Course name:** Cybersecurity and Data Privacy  
 - **Semester:** Autumn 2025  
-- **Student:** *Your Name (Fatema Akter)*  
+- **Student:** Fatema Akter  
 - **Instructor:** *Vheikkiemi*  
 
 ## ✅ Progress summary
