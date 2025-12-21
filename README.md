@@ -1,6 +1,6 @@
-# Cybersecurity and Data Privacy – Autumn 2025
+# IT00AK39-3005 Cybersecurity and data privacy
 
-This repository contains my work and logbook for the **Cybersecurity and Data Privacy (Autumn 2025)** course.
+This repository contains my work and logbook for the **,IT00AK39-3005 Cybersecurity and data privacy** course.
 
 ## 📘 Description
 The purpose of this repository is to document my learning progress throughout the course, including:
