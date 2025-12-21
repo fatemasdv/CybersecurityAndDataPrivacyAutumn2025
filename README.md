@@ -13,8 +13,7 @@ The purpose of this repository is to document my learning progress throughout th
 - **README.md** → This description file
 
 ## 🧠 Course Information
-- **Course name:** Cybersecurity and Data Privacy  
-- **Semester:** Autumn 2025  
+- **Course name:** Cybersecurity and Data Privacy   
 - **Student:** Fatema Akter  
 - **Instructor:** Heikkiniemi, Ville  
 
